@@ -1,9 +1,26 @@
+:root {
+    --background: #A4DBEF;
+    --shelf-main-color:  #046E8F;
+    --shelf-borders: #34A6CA;
+    --planks-bg: #073F50;
+    --main-books: #FDF0D5;
+}
+
+
 /* * {
     outline: 1px solid red;
 } */
+body {
+    background-color: var(--background);
+}
+
 h1 {
     text-align: center;
+    font-size: 10em;
+    margin-bottom: 0;
+    color: var(--planks-bg);
 }
+
 ul {
     list-style-type: none;
 }
@@ -19,15 +36,16 @@ ul {
 }
 
 .shelf-top, .shelf-bottom {
-    background-color: antiquewhite;
+    background-color: var(--shelf-main-color);
     width: 80vw;
     height: 50px;
+    border: solid 5px var(--shelf-borders);
+    border-radius: 10px;
 }
- 
+
 .shelf-middle {
-    background-color: rgb(165, 130, 85);
+    background-color: var(--shelf-main-color);
     width: 70vw;
-    height: 1500px;
     display: flex;
     padding: 2em;
     display: flex;
@@ -40,8 +58,36 @@ ul {
 }
 
 .planks {
-    background-color: rgb(89, 66, 37);
-    width: 100%;
+    background-color: var(--planks-bg);
     height: 300px;
     margin-bottom: 2em;
+    border-bottom: solid var(--shelf-borders) 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
 }
+
+.planks div {
+    background-color: var(--main-books);
+    width: 10%;
+    height: 80%;
+    border-radius: 8px 8px 0px 0px;
+    margin-right: 1em;
+}
+
+.plank1 div:nth-of-type(4) {
+    opacity: 0;
+}
+
+/* pop-up menu's from books */
+.pop-up {
+    background-color: white;
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+}
+/* 
+.hidden {
+    display: none;
+} */
