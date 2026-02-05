@@ -26,6 +26,24 @@ ul {
     list-style-type: none;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+}
+
+/* .theme {
+    appearance: none;
+}
+
+.theme::before {
+    width: 20em;
+    height: 5em;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--main-books);
+} */
+
 .myname {
     display: grid;
     grid-template-columns:repeat(5, max-content);
@@ -55,11 +73,9 @@ ul {
 @keyframes jump {
     0% {
         translate: 0em 0em;
-        transform: scaleX(100%) scaleY(20%);
     }
     10% {
         translate: 0em -1.2em;
-        transform: scaleX(100%) scaleY(100%);
     }
     15% {
         translate: 0em 0em;
@@ -129,9 +145,11 @@ ul {
     margin-right: 1em;
 }
 
-.plank1 div:nth-of-type(4) {
+.plank1 div:nth-of-type(4), .plank2 div:nth-of-type(6), .plank3 div:nth-of-type(2) {
     opacity: 0;
 }
+
+
 
 /* pop-up menu's from books */
 .pop-up {
@@ -151,16 +169,15 @@ ul {
 .pop-up section {
     width: 50vw;
     height: 100%;
+    background-color: white;
 }
 
 .pop-up section:first-of-type {
-    background-color: var(--shelf-borders);
-    border-right: solid gray 8px;
+    border-right: solid black 8px;
 }
 
 .pop-up section:nth-of-type(2) {
-    background-color: var(--planks-bg);
-    border-left: solid gray 8px;
+    border-left: solid black 8px;
 }
 
 
