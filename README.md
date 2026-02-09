@@ -25,7 +25,7 @@ Ik vind dat ik van vandaag erg goede pregressie heb gemaakt door het maken van e
 ## Samenvatting week
 Ik vond de eerste week op mijn minor erg leuk en leerzaam. Er kwamen veelfuncies op mij af waar ik nog nks van af wist, zoals het maken van een page-flip animatie. Ik vond het ook interessant om bij de lecture te zijn van Killian Valkhof, waarin hij veel mogelijkheden toonde om css te gebruiken waar je normaal JavaScript voor gebruikt. Het was wel lastig om al deze stof te leren en toe te passen in mjn eigen project, dit zou ik ook graag volgende willen doen als ik hier tijd voor heb. Het was leerzaam om zo veel op locatie te werken en de mogelijkheid te krijgen om veel te vragen, hierdoor loop ik niet zo veel vast.
 
-# Week 1
+# Week 2
 
 ## Maandag 09 februari
 Wat zijn je grote stappen?
