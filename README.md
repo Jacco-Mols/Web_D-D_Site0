@@ -4,6 +4,8 @@ wat heb je geleerd?
 wat heb je gedaan?
 hoelang duurde het?
 Wat ga je morgen doen?
+Wat zijn je grote stappen?
+
 
 ## Woensdag 04februari
 Gesprek met Diego
@@ -32,8 +34,28 @@ Wat zijn je grote stappen?
 Ik wil nog graag ervoor zorgen dat ik alle content van mijn site in orde heb en dat ik meerdere werkende boeken heb.
 wat heb je geleerd?
 Ik heb geleerd om een werkend boek te maken met css en javascript, doormiddel van css en een klein deel Js. 
+
+
 wat heb je gedaan?
 Ik heb mijn site al een stukje responsive gemaakt hier wil ik graag mee verder komende dagen.
 hoelang duurde het?
 Het duurde erg lang om de het boek te laten werken, hier was ik van 10:00 tot 13:00 mee bezig. 
 Wat ga je morgen doen?
+
+
+## Dinsdag 10Februari
+
+wat heb je geleerd?
+Geleerd om data van een api te halen doormiddel van een forEach function. Ik heb ook een boek veel detail gegeven zodat je ziet dat hier informatie in zit. Ik heb ook veel aandacht besteed om nog wat delen van mijn site responsive te maken.
+
+wat heb je gedaan?
+Veel vragen over javascript gesteld aan klasgenoten die hier veel van wisten. 
+
+hoelang duurde het?
+Het responsive maken van verchillende delen kosten niet veel tijd. Ik was voornamelijk bezig met het vragen stellen over javascript aan klasgenoten.
+
+Wat ga je morgen doen?
+Ik morgen kijken of ik een smoelenboek kan maken met de data van de api.
+
+Wat zijn je grote stappen?
+Ik wil nog ervoor zorgen dat ik de data van de api netjes in mijn html kan plaatsen. 
