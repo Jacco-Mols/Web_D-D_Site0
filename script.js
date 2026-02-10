@@ -1,28 +1,63 @@
 // pop up of books
-const popUp = document.querySelector('.pop-up')
 const hidden = document.querySelector('.hidden')
 
-const bookButton = document.querySelector('.bookHobby')
+const openLeerdoelen = document.querySelector('.leerdoelen')
+const closeBook1 = document.querySelector('.close-book')
+const popUp = document.querySelector('.pop-up')
+
+const openhobbies = document.querySelector('.hobbies')
+const closeBook2 = document.querySelector('.close-book2')
+const popUp2 = document.querySelector('.pop-up2')
 
 
-
-const bookdetails = document.querySelector('.bookdetails')
-const pageTurnLeft = document.querySelector('.pageturn-left')
-const pageTurnRight = document.querySelector('.pageturn-right')
-
-
-bookButton.addEventListener('click', function() {
-    console.log("works")
+// open / close book leerdoelen
+openLeerdoelen.addEventListener('click', function() {
     popUp.classList.toggle('hidden')
     document.body.classList.toggle('no-scroll')
 })
 
-bookdetails.addEventListener('click', function() {
+closeBook1.addEventListener('click', function() {
     popUp.classList.toggle('hidden')
     document.body.classList.toggle('no-scroll')
 })
 
+// open / close book hobbies
+openhobbies.addEventListener('click', function() {
+    popUp2.classList.remove('hidden')
+    document.body.classList.add('no-scroll')
+})
 
-pageTurnRight.addEventListener('click]', function() {
-    
+closeBook2.addEventListener('click', function() {
+    popUp2.classList.add('hidden')
+    document.body.classList.remove('no-scroll')
+})
+
+
+
+
+// turn pages leerdoelen
+const pageOne = document.querySelector('.page1')
+const pageTwo = document.querySelector('.page2')
+
+const open = document.querySelector('.open-page')
+const close = document.querySelector('.close-page')
+
+pageOne.addEventListener('click', function() {
+    pageOne.classList.toggle('open-page')
+})
+
+pageTwo.addEventListener('click', function() {
+    pageTwo.classList.toggle('open-page')
+})
+
+// turn pages hobbies
+const hobbiesPageOne = document.querySelector('.hobbies-page1')
+const hobbiesPageTwo = document.querySelector('.hobbies-page2')
+
+hobbiesPageOne.addEventListener('click', function() {
+    hobbiesPageOne.classList.toggle('open-page')
+})
+
+hobbiesPageTwo.addEventListener('click', function() {
+    hobbiesPageTwo.classList.toggle('open-page')
 })
