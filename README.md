@@ -1,11 +1,5 @@
 Web_D-D_Site0
 # Week 1
-wat heb je geleerd?
-wat heb je gedaan?
-hoelang duurde het?
-Wat ga je morgen doen?
-Wat zijn je grote stappen?
-
 
 ## Woensdag 04februari
 Gesprek met Diego
@@ -29,45 +23,13 @@ Ik vond de eerste week op mijn minor erg leuk en leerzaam. Er kwamen veelfuncies
 
 # Week 2
 ## Maandag 09 februari
-ik heb vandaag 
-
-Wat zijn je grote stappen?
-Ik wil nog graag ervoor zorgen dat ik alle content van mijn site in orde heb en dat ik meerdere werkende boeken heb.
-wat heb je geleerd?
-Ik heb geleerd om een werkend boek te maken met css en javascript, doormiddel van css en een klein deel Js. 
-
-
-wat heb je gedaan?
-Ik heb mijn site al een stukje responsive gemaakt hier wil ik graag mee verder komende dagen.
-hoelang duurde het?
-Het duurde erg lang om de het boek te laten werken, hier was ik van 10:00 tot 13:00 mee bezig. 
-Wat ga je morgen doen?
-
-
+ik heb vandaag delen van mijn site responsive geprobeeert te maken, niet alles was even makkelijk, maar bijvoorbeeld de boekenkast zelf was wel gelukt. Ik heb daarnaast mijn boeken verder wat meer up to date gemaakt, door het boek te laten sluiten als je op de knop klikt en naar de volgende pagina te gaan als je op die bladzijde klikt. Wat ik nog wel mis is de content van de site, ik nog graag foto's of icnonen toevoegen en eventueel mezelf op een creatievere wijze introducren. Het duurde allemaal wel lang, ik ben niet goed is JavaScript en kom hier ook vaak in de problemen mee. Ik was van 10:00 tot 13:00 bezig om het boek te laten zoals ik het had bedacht.
 
 ## Dinsdag 10Februari
-
-
-
-wat heb je geleerd?
-Geleerd om data van een api te halen doormiddel van een forEach function. Ik heb ook een boek veel detail gegeven zodat je ziet dat hier informatie in zit. Ik heb ook veel aandacht besteed om nog wat delen van mijn site responsive te maken.
-
-wat heb je gedaan?
-Veel vragen over javascript gesteld aan klasgenoten die hier veel van wisten. 
-
-hoelang duurde het?
-Het responsive maken van verchillende delen kosten niet veel tijd. Ik was voornamelijk bezig met het vragen stellen over javascript aan klasgenoten.
-
-Wat zijn je grote stappen?
-
-Wat ga je morgen doen?
-
+Ik heb geleerd om data van een api te halen doormiddel van een forEach function. Ik hoop dat ik doormiddel van de forEach function de data van de api kan plaatsen in mijn site en een dynamische html structuur krijg. De forEach function was mij gelukt door veel vragen te stellen aan Joost die tegenover mij zat. Ik heb ook een boek veel detail gegeven om aan te duidden dat je hier op kan klikken. Ik heb ook veel aandacht besteed om nog wat delen van mijn site responsive te maken. Het responsive maken van verchillende delen kosten niet veel tijd, ik was voornamelijk bezig met het vragen stellen over javascript aan klasgenoten. 
 
 ## Woensdag 11Februari
+Ik heb vandaag voornamelijk gewerkt aan het data ophalen van de api. Dit was mij op een eerder moment al gelukt maar ik wilde het ook graag dynamisch maken. Dit was lastiger dan ik dacht, Justus heeft me geholpen door veel code te scrijven, maar ik vond dit persoonlijke te lastig om mee te werken. Het was uiteindelijk wel gelukt maar niet op een dynamische manier, ik heb nu een boek gemaakt voor een specifieke klasgenoot. Omdat ik de hele dag bezig was met dde api heb ik helaas niet veel tijd over gehouden voor het ontwerp en responsive maken.
 
-
-Wat ga je morgen doen?
-Ik morgen kijken of ik een smoelenboek kan maken met de data van de api.
-
-Wat zijn je grote stappen?
-Ik wil nog ervoor zorgen dat ik de data van de api netjes in mijn html kan plaatsen. 
+## Samenvatting week 2
+Ik vond deze week ook heel leerzaam maar op een manier ook lastiger. Ik ben meer bezig geweest met JavaScript, waar ik persoonlijk niet goed in ben. Ik vind dat wel hele grote sprongen heb gemaakt met mijn site, ik heb bijvoorbeeld een beeld gekregen bij hoe je dynamische html structuur aanmaakt in JavaScript en veel nuttige workshops gevolgd waar ik heb geleerd over de verschillen van grid en flex en hoe je het typografie kan toepassen in css. Ik had graag nog wel extra sprongen willen maken in mijn ontwerp, maar dit was lastig te bereiken, omdat ik druk bezig ben geweest met de api.
