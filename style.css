@@ -5,6 +5,8 @@ html {
     --planks-bg: #073F50;
     --main-books: #FDF0D5;
     --books-border: #E3D1AB;
+    --books-blue-gray: #596475;
+    --books-pink-beige: #FDE8E9;
     --title: #073F50;
     
     @media (prefers-color-scheme: dark) {
@@ -16,6 +18,19 @@ html {
         --books-border: #E3D1AB;
         --title: #FDF0D5;
     }
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'titles';
+    src: url('./fonts/CroissantOne-Regular.ttf');
+
+    font-family: 'headers';
+    src: url('./fonts/DeliusSwashCaps-Regular.ttf');
+
 }
 
 /* * {
@@ -54,6 +69,7 @@ header {
 }
 
 .myname li h2 {
+    font-family: 'titles';
     text-align: center;
     font-size: 20vw;
     margin-bottom: 0;
@@ -111,7 +127,6 @@ header {
     @media (max-width: 820px) {
         width: 90vw;
         min-width: 400px;
-
     }
 }
 
@@ -143,7 +158,7 @@ header {
     & li {
         background-color: var(--main-books);
         width: 90%;
-        max-width: 100%;
+        max-width: 90px;
         height: 80%;
         border-radius: 8px 8px 0px 0px;
         border: 3px solid var(--books-border);
@@ -151,12 +166,44 @@ header {
 
     & li:hover {
         translate: 0em -1.5em;
-        animation-name: bookhover;
+        transition: .5s;
+        /* animation-name: bookhover;
         animation-duration: infinite;
-        animation-fill-mode: both;
+        animation-fill-mode: both; */
     }
 }
 
+
+/* the clickable books */
+body .clickable-book {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--books-blue-gray);
+   border-color: var(--books-pink-beige);
+   padding-top: .5em;
+}
+
+body .clickable-book div {
+   width: 80%;
+   height: 5em;
+   border: solid 3px var(--books-pink-beige);
+   border-radius: 3px;
+   margin-bottom: .5em;
+}
+
+.clickable-book p {
+    font-family: 'headers';
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    background-color: var(--books-pink-beige);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/* 
 @keyframes bookhover {
     from {
         transform: rotateX(30deg);
@@ -164,7 +211,7 @@ header {
     to {
         transform: rotateX(-30deg);
     }
-}
+} */
 
 
 .plank1 li:nth-of-type(4), .plank2 li:nth-of-type(6), .plank3 li:nth-of-type(2) {
@@ -172,7 +219,7 @@ header {
 }
 
 /* pop-up menu's from books */
-.pop-up, .pop-up2 {
+.pop-up, .pop-up2, .pop-up3, .pop-up4 {
     position: sticky;
     top: 25%;
     z-index: 1;
@@ -181,17 +228,18 @@ header {
     transform-style: preserve-3d;
 
     & button {
-    background-color: var(--shelf-main-color);
-    color: var(--main-books);
-    
-
+    background-color: var(--background);
+    color: var(--title);
+    border: 3px solid black;
+    padding: .5rem;
     }
-}
 
-.pop-up, .pop-up2 div {
-    display: grid;
-    justify-self: center;
-    align-items: center;
+    & button:hover {
+    background-color: var(--planks-bg);
+    color: var(--main-books);
+    border: 3px solid black;
+    padding: .5rem;
+    }
 }
 
 bladzijde {
@@ -208,6 +256,7 @@ bladzijde {
     justify-items: center;
     transform-origin: left;
     transform-style: preserve-3d;
+    perspective: 40em;
 
     @media (max-width: 800px) {
         width: 50vw;
@@ -230,6 +279,8 @@ bladzijde section {
     height: 100%;
     border-radius: 8px;
     backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 40em;
 
     &:nth-of-type(2) {
         rotate:y -180deg;
@@ -241,6 +292,42 @@ bladzijde section {
     }
 }
 
+/* Joost */
+
+.classmates-page1 section  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classmates-page1 section figure {
+    width: 20vw;
+    background-color: black
+}
+/* hobbies */
+.pop-up2 bladzijde section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop-up2 bladzijde img {
+    width: 10em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.controller {
+    rotate: 30deg;
+}
+
+.pop-up2 bladzijde .book-img {
+    rotate: -50deg;
+    width: 5em;
+}
+
+
+
 .open-page {
     animation-name: turnleft;
     animation-duration: 2s;
@@ -250,12 +337,12 @@ bladzijde section {
 
 
 /* page turn buttons */
-.pageturn-left, .pageturn-right {
+/* .pageturn-left, .pageturn-right {
     width: 4em;
     height: 2em;
     background-color: white;
     margin: 2em;
-}
+} */
 
 @keyframes turnleft {
     to {
