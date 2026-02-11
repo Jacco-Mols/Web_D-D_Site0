@@ -20,7 +20,7 @@ async function getData() {
     <bladzijde class="bookdetails classmates-page1" >
         <section class="smoelenboek-1">
             <h3>${studentInfo.name}</h3>
-            <figrue><img src="${studentInfo.avatar}"></figrue>
+            <img src="${studentInfo.avatar}">
         </section>
         <section class="smoelenboek-2">
             <ul>
@@ -49,7 +49,6 @@ async function getData() {
         </section>
     </bladzijde>
     `
-
     document
     .querySelector('.pop-up3')
     .insertAdjacentHTML('beforeend', studentHTML)
@@ -81,5 +80,3 @@ async function getData() {
         classmatesPageTwo.classList.toggle('open-page')
     })
 }
-
-

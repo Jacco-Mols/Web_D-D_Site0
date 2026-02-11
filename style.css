@@ -33,10 +33,6 @@ img {
 
 }
 
-/* * {
-    outline: 1px solid red;
-} */
-
 body {
     background-color: var(--background);
 }
@@ -54,7 +50,6 @@ header {
     grid-template-columns: 1fr;
     justify-items: end;
 }
-
 
 .myname {
     display: grid;
@@ -167,12 +162,8 @@ header {
     & li:hover {
         translate: 0em -1.5em;
         transition: .5s;
-        /* animation-name: bookhover;
-        animation-duration: infinite;
-        animation-fill-mode: both; */
     }
 }
-
 
 /* the clickable books */
 body .clickable-book {
@@ -203,17 +194,6 @@ body .clickable-book div {
     padding-bottom: .5em;
 }
 
-/* 
-@keyframes bookhover {
-    from {
-        transform: rotateX(30deg);
-    }
-    to {
-        transform: rotateX(-30deg);
-    }
-} */
-
-
 .plank1 li:nth-of-type(4), .plank2 li:nth-of-type(6), .plank3 li:nth-of-type(2) {
     opacity: 0;
 }
@@ -228,17 +208,16 @@ body .clickable-book div {
     transform-style: preserve-3d;
 
     & button {
-    background-color: var(--background);
-    color: var(--title);
-    border: 3px solid black;
-    padding: .5rem;
+    background-color: var(--books-blue-gray);
+    color: var(--books-pink-beige);
+    border: none;
+    border-radius: 3px;
+    padding: .8rem;
     }
 
     & button:hover {
-    background-color: var(--planks-bg);
-    color: var(--main-books);
-    border: 3px solid black;
-    padding: .5rem;
+    background-color: var(--books-pink-beige);
+    color: var(--books-blue-gray);
     }
 }
 
@@ -292,18 +271,68 @@ bladzijde section {
     }
 }
 
-/* Joost */
+/* leerdoelen */
+.pop-up bladzijde section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.pop-up bladzijde section p,  .pop-up bladzijde section h3{
+    max-width: 15em;
+    font-family: 'headers';
+}
+
+.pop-up bladzijde section h3 {
+    color: var(--books-pink-beige);
+}
+
+.pop-up bladzijde:first-of-type section:first-of-type, .pop-up bladzijde:last-of-type section:last-of-type {
+    background-color: var(--books-blue-gray);
+}
+
+/* Joost book */
 .classmates-page1 section  {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.classmates-page1 section figure {
-    width: 20vw;
-    background-color: black
+.classmates-page1 section:first-of-type  {
+    background-color: var(--books-blue-gray);
 }
+
+.classmates-page1 section:first-of-type h3{
+    color: var(--books-pink-beige);
+}
+
+.classmates-page1  section h3 {
+    font-family: 'headers';
+    margin-bottom: 1em;
+}
+
+.classmates-page1 section img {
+    max-width: 100%;
+    width: 50%;
+}
+
+.classmates-page1  section ul, .classmates-page2  section ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0;
+    width: 100%;
+}
+
+.classmates-page1  section ul, .classmates-page2  section ul li p {
+    font-family: 'headers';
+}
+
+.classmates-page2 section:last-of-type  {
+    background-color: var(--books-blue-gray);
+}
+
+
 /* hobbies */
 .pop-up2 bladzijde section {
     display: flex;
@@ -317,6 +346,19 @@ bladzijde section {
     margin-bottom: 2em;
 }
 
+.pop-up2 .hobbies-page1 h3 {
+    font-family: 'headers';
+    color: var(--books-pink-beige);
+}
+
+.pop-up2 .hobbies-page1 section:first-of-type {
+    background-color: var(--books-blue-gray);
+}
+
+.pop-up2 .hobbies-page2 section:nth-of-type(2) {
+    background-color: var(--books-blue-gray);
+}
+
 .controller {
     rotate: 30deg;
 }
@@ -326,8 +368,6 @@ bladzijde section {
     width: 5em;
 }
 
-
-
 .open-page {
     animation-name: turnleft;
     animation-duration: 2s;
@@ -335,19 +375,9 @@ bladzijde section {
     z-index: 1;
 }
 
-
-/* page turn buttons */
-/* .pageturn-left, .pageturn-right {
-    width: 4em;
-    height: 2em;
-    background-color: white;
-    margin: 2em;
-} */
-
 @keyframes turnleft {
     to {
         rotate: y -180deg;
         transition: 2s;
     }
 }
-

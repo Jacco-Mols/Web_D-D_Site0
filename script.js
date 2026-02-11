@@ -58,4 +58,3 @@ hobbiesPageOne.addEventListener('click', function() {
 hobbiesPageTwo.addEventListener('click', function() {
     hobbiesPageTwo.classList.toggle('open-page')
 })
-
