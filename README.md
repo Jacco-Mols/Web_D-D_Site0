@@ -24,11 +24,10 @@ Ik heb geleerd om animaties toe te passen aan mijn teksten doormiddel van keyfra
 ## Vrijdag 05februari
 Ik vind dat ik van vandaag erg goede pregressie heb gemaakt door het maken van een flip animatie in een van mijn boeken. Dit heb ik gedaan doormiddel van een css animatie met transform-origin en rotatey(-180deg). Het duurde wel lang om mijn animatie aan het werk te krijgen omdat ik dit nooit eerder heb gedaan, ik was hier namelijk van 9:30 tot 12:00 mee bezig. Ik in de tussentijd ook de scructuur van mijn html aangepast, dit kon op veel plekken verbeterd worden.
 
-## Samenvatting week
+## Samenvatting week 1
 Ik vond de eerste week op mijn minor erg leuk en leerzaam. Er kwamen veelfuncies op mij af waar ik nog nks van af wist, zoals het maken van een page-flip animatie. Ik vond het ook interessant om bij de lecture te zijn van Killian Valkhof, waarin hij veel mogelijkheden toonde om css te gebruiken waar je normaal JavaScript voor gebruikt. Het was wel lastig om al deze stof te leren en toe te passen in mjn eigen project, dit zou ik ook graag volgende willen doen als ik hier tijd voor heb. Het was leerzaam om zo veel op locatie te werken en de mogelijkheid te krijgen om veel te vragen, hierdoor loop ik niet zo veel vast.
 
 # Week 2
-
 ## Maandag 09 februari
 Wat zijn je grote stappen?
 Ik wil nog graag ervoor zorgen dat ik alle content van mijn site in orde heb en dat ik meerdere werkende boeken heb.
@@ -43,7 +42,10 @@ Het duurde erg lang om de het boek te laten werken, hier was ik van 10:00 tot 13
 Wat ga je morgen doen?
 
 
+
 ## Dinsdag 10Februari
+
+
 
 wat heb je geleerd?
 Geleerd om data van een api te halen doormiddel van een forEach function. Ik heb ook een boek veel detail gegeven zodat je ziet dat hier informatie in zit. Ik heb ook veel aandacht besteed om nog wat delen van mijn site responsive te maken.
@@ -53,6 +55,14 @@ Veel vragen over javascript gesteld aan klasgenoten die hier veel van wisten.
 
 hoelang duurde het?
 Het responsive maken van verchillende delen kosten niet veel tijd. Ik was voornamelijk bezig met het vragen stellen over javascript aan klasgenoten.
+
+Wat zijn je grote stappen?
+
+Wat ga je morgen doen?
+
+
+## Woensdag 11Februari
+
 
 Wat ga je morgen doen?
 Ik morgen kijken of ik een smoelenboek kan maken met de data van de api.
