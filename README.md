@@ -29,6 +29,8 @@ Ik vond de eerste week op mijn minor erg leuk en leerzaam. Er kwamen veelfuncies
 
 # Week 2
 ## Maandag 09 februari
+ik heb vandaag 
+
 Wat zijn je grote stappen?
 Ik wil nog graag ervoor zorgen dat ik alle content van mijn site in orde heb en dat ik meerdere werkende boeken heb.
 wat heb je geleerd?
